@@ -1,0 +1,52 @@
+/* This adds a main border, font characteristics, and a box-shadow*/
+.main {
+    width: 310px; /*Sets width to image size plus sides*/
+    border: 6px double rgb(128, 0, 255);
+    background-image: linear-gradient(to bottom right, rgb(92, 92, 214), rgb(217, 179, 255), rgb(217, 179, 255), rgb(255, 153, 204), rgb(102, 255, 255), rgb(179, 240, 255));
+    font-family: Futura, Trebuchet MS, Arial, sans-serif; /*Using this font style for readability*/
+    font-size: 14px;
+    box-shadow: 10px 5px 5px rgb(217, 179, 255);
+}
+
+/*This adds a border to the header and the font characteristics*/
+h3 {
+    padding: 10px;
+  	margin: 5px;
+    font-size: 24px; /*Large font size for readbility*/
+  	border: 3px inset rgb(128, 0, 255);
+  	border-radius: 25px; /*Rounded corners*/
+}
+
+/*Adds a a basic purple border around an animal image*/
+img {
+    width: 300px;
+    height: auto;
+    border: 1px dotted purple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  	margin-bottom: 5px;
+}
+
+/*Adds a basic purple border to the animal information section*/
+.facts {
+    padding: 10px;
+    margin: 5px;
+    border: 1px dotted purple;
+}
+
+/*Italicizes interesting fact*/
+.interesting {
+    font-style: italic;
+}
+
+/*Removes list bullets*/
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/*Bolds list headers*/
+.boldlist {
+    font-weight: bold;
+}
